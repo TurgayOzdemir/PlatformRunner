@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3119598271919251141}
   - component: {fileID: 914227771528161807}
   - component: {fileID: 1238100600100537830}
-  - component: {fileID: 3572143583576692593}
+  - component: {fileID: 3289221350662223646}
   m_Layer: 0
   m_Name: BlueRotatingPlatform
   m_TagString: RotatingPlatform
@@ -99,7 +99,7 @@ MonoBehaviour:
   halfDonutForward: {fileID: 0}
   halfDonutBackward: {fileID: 0}
   rotator: {fileID: 0}
---- !u!64 &3572143583576692593
+--- !u!64 &3289221350662223646
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

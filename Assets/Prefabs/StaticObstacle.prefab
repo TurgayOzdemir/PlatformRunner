@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5845543954150615823}
   - component: {fileID: 7399503059704571050}
   - component: {fileID: 4707571807388668000}
+  - component: {fileID: 5482269120831150062}
+  - component: {fileID: 5444442544253928126}
   m_Layer: 0
   m_Name: StaticObstacle
   m_TagString: Untagged
@@ -81,3 +83,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5482269120831150062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6508928438154572213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05827da7b163bdd40aba4579c31c4d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &5444442544253928126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6508928438154572213}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1478626670778548299, guid: 013aec825033be04aa8e8d6aed7f2a2f, type: 3}

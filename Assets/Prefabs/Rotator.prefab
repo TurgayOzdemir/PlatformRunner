@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1573827140823752674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.067439735, y: 0.038246058, z: 0.86482507}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 7558585513525144241}
   m_Father: {fileID: 0}
@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 7558585513525144241}
   - component: {fileID: 6866484129389307156}
   - component: {fileID: 8695977706422768094}
+  - component: {fileID: 3717505182089722155}
   m_Layer: 0
   m_Name: RotatingStick
   m_TagString: Untagged
@@ -180,3 +181,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3717505182089722155
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7182869593032241163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2457439952264339840, guid: 7777821a290fa5f44be0c586e0bcfa42, type: 3}

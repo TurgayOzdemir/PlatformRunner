@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8432073070736859927}
   - component: {fileID: 5971855026211559389}
   - component: {fileID: 836292577701735155}
+  - component: {fileID: 6315413515686223066}
+  - component: {fileID: 9050016196784421845}
   m_Layer: 0
   m_Name: HorizontalObstacle
   m_TagString: HorizontalObstacle
@@ -94,3 +96,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61d1d1b5701ae654aba1eb5e143f8d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  halfDonutStick: {fileID: 0}
+  halfDonutForward: {fileID: 0}
+  halfDonutBackward: {fileID: 0}
+  rotator: {fileID: 0}
+--- !u!114 &6315413515686223066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5323455908873188872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05827da7b163bdd40aba4579c31c4d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &9050016196784421845
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5323455908873188872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8836696378809578477, guid: 679a24222120a404c8ed2a755854a0cb, type: 3}
