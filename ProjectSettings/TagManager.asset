@@ -10,6 +10,8 @@ TagManager:
   - RotatingPlatform
   - AI
   - StaticObstacle
+  - EndPoint
+  - Fall
   layers:
   - Default
   - TransparentFX

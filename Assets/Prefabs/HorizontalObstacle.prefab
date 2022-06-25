@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 836292577701735155}
   - component: {fileID: 6315413515686223066}
   - component: {fileID: 5215565994227684824}
-  - component: {fileID: 4170611215385823815}
+  - component: {fileID: 8152585191075402546}
   m_Layer: 0
   m_Name: HorizontalObstacle
   m_TagString: HorizontalObstacle
@@ -129,7 +129,7 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
---- !u!65 &4170611215385823815
+--- !u!65 &8152585191075402546
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,8 +137,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5323455908873188872}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.10593359, y: 0.25618502, z: 0.108100474}
-  m_Center: {x: -0.002140008, y: 0, z: -0.0013721883}
+  m_Size: {x: 0.10708457, y: 0.26182684, z: 0.10461402}
+  m_Center: {x: -0.00061537325, y: 0.002820909, z: 0.0007684231}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4707571807388668000}
   - component: {fileID: 5482269120831150062}
   - component: {fileID: 614615043490127860}
-  - component: {fileID: 4504366492145009485}
+  - component: {fileID: 1786289004479641191}
   m_Layer: 0
   m_Name: StaticObstacle
   m_TagString: StaticObstacle
@@ -106,14 +106,14 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.1, y: 0.045, z: 0.021000002}
+  m_Extents: {x: 0.07, y: 0.045, z: 0.021000002}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
---- !u!65 &4504366492145009485
-BoxCollider:
+--- !u!64 &1786289004479641191
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -122,6 +122,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1491389, y: 0.096716985, z: 0.041758485}
-  m_Center: {x: -0.00017236173, y: -0.0037972424, z: 0}
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1478626670778548299, guid: 013aec825033be04aa8e8d6aed7f2a2f, type: 3}
