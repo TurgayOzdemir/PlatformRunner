@@ -8,6 +8,8 @@ TagManager:
   - HalfDonut
   - Rotator
   - RotatingPlatform
+  - AI
+  - StaticObstacle
   layers:
   - Default
   - TransparentFX
